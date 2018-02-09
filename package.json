@@ -1,0 +1,29 @@
+{
+  "name": "cellular-lint",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "Felix Gnass <fgnass@cellular.de>",
+  "repository": "fgnass/cellular-lint",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && flow .",
+    "prepublishOnly": "npm test"
+  },
+  "bin": {
+    "cellular-lint": "./bin/cellular-lint.js",
+    "cellular-lint-staged": "./bin/cellular-lint-staged.js"
+  },
+  "dependencies": {
+    "about-this-app": "^1.0.2",
+    "cross-spawn": "^5.1.0",
+    "eslint": "^4.16.0",
+    "eslint-config-cellular": "^1.0.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.1"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.63.1"
+  }
+}
