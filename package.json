@@ -19,12 +19,11 @@
   },
   "dependencies": {
     "about-this-app": "^1.0.2",
-    "cross-spawn": "^6.0.4",
     "eslint": "^4.16.0",
     "eslint-config-cellular": "^1.0.0",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.1",
-    "resolve-bin": "^0.4.0"
+    "spawn-bin": "^1.0.0"
   },
   "devDependencies": {
     "flow-bin": "^0.65.0"
