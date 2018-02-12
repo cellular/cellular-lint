@@ -17,7 +17,7 @@
     "cellular-lint-staged": "./bin/cellular-lint-staged.js"
   },
   "dependencies": {
-    "about-this-app": "^1.0.2",
+    "about-this-app": "^1.1.0",
     "eslint": "^4.16.0",
     "eslint-config-cellular": "^2.0.0",
     "fs-extra": "^5.0.0",
