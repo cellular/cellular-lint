@@ -20,7 +20,7 @@
   "dependencies": {
     "about-this-app": "^1.0.2",
     "eslint": "^4.16.0",
-    "eslint-config-cellular": "^1.0.0",
+    "eslint-config-cellular": "^2.0.0",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.1",
     "spawn-bin": "^1.0.0"
