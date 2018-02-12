@@ -4,7 +4,7 @@ const app = require('about-this-app');
 const dogfooding = app.pkg.name == 'cellular-lint';
 
 const bin = dogfooding
-  ? require.resolve('../bin/cellular-lint')
+  ? require.resolve('./bin/cellular-lint')
   : 'cellular-lint';
 
 const fix = `${bin} --fix`;
