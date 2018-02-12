@@ -1,6 +1,6 @@
 {
   "name": "cellular-lint",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI toolbox for linting projects",
   "author": "Felix Gnass <fgnass@cellular.de>",
   "repository": "fgnass/cellular-lint",
