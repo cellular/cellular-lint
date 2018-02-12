@@ -6,10 +6,9 @@
   "repository": "fgnass/cellular-lint",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint .",
     "test": "./bin/cellular-lint.js && flow .",
     "precommit": "./bin/cellular-lint-staged.js",
-    "postinstall": "node ./lib/postinstall",
+    "postinstall": "./bin/init.js",
     "prepublishOnly": "npm test"
   },
   "main": "./lib",
@@ -21,6 +20,7 @@
     "about-this-app": "^1.0.2",
     "eslint": "^4.16.0",
     "eslint-config-cellular": "^2.0.0",
+    "fs-extra": "^5.0.0",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.1",
     "spawn-bin": "^1.0.0"
