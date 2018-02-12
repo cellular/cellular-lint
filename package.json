@@ -10,6 +10,7 @@
     "lint": "eslint .",
     "test": "npm run lint && flow .",
     "precommit": "./bin/cellular-lint-staged.js",
+    "postinstall": "node ./lib/postinstall",
     "prepublishOnly": "npm test"
   },
   "main": "./lib",
