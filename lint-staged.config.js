@@ -1,14 +1,9 @@
 // @flow
 
 const app = require('about-this-app');
-const dogfooding = app.pkg.name == 'cellular-lint';
 
-const bin = dogfooding
-  ? require.resolve('./bin/cellular-lint')
-  : 'cellular-lint';
-
-const fix = `${bin} --fix`;
-const flow = app.hasAnyDep('flow-bin') && 'flow focus-check';
+const fix = 'cellular-lint --fix';
+const flow = app.hasAnyDep('flow-bin') && 'cellular-flow focus-check';
 const stage = 'git add';
 
 module.exports = {

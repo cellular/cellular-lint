@@ -6,7 +6,9 @@
   "repository": "fgnass/cellular-lint",
   "license": "MIT",
   "scripts": {
-    "test": "./bin/cellular-lint.js && flow .",
+    "test": "./bin/cellular-lint.js && ./bin/cellular-flow.js .",
+    "cellular-lint": "./bin/cellular-lint.js",
+    "cellular-flow": "./bin/cellular-flow.js",
     "precommit": "./bin/cellular-lint-staged.js",
     "postinstall": "./bin/init.js",
     "prepublishOnly": "npm test"
@@ -23,7 +25,7 @@
     "fs-extra": "^5.0.0",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.1",
-    "spawn-bin": "^1.0.0"
+    "spawn-bin": "^2.0.0"
   },
   "devDependencies": {
     "flow-bin": "^0.65.0"
