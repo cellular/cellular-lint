@@ -43,7 +43,7 @@ Runs lint-staged with the folloing settigns:
   linters: {
     '**/*.+(js|mjs|jsx)': [
       'cellular-lint --fix',
-      'flow focus-check', // if flow is present
+      'cellular-flow focus-check', // if flow is present
       'git add'
     ]
   }
@@ -51,6 +51,11 @@ Runs lint-staged with the folloing settigns:
 ```
 
 __NOTE:__ If the project contains a `.lintstagedrc` or `lint-staged.config.js` file that config will be used instead.
+
+
+### `cellular-flow`
+
+This is just a wrapper around the `flow` binary. Why? It's not uncommon for projects to contain an npm script called "flow". If such a script exists, lint-staged will run this instead of the actual flow binary which would prevent `flow focus-check` from working! To fix this we use `cellular-flow` as alias in our lint-staged configuration.
 
 # License
 
