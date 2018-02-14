@@ -16,7 +16,8 @@
   "main": "./lib",
   "bin": {
     "cellular-lint": "./bin/cellular-lint.js",
-    "cellular-lint-staged": "./bin/cellular-lint-staged.js"
+    "cellular-lint-staged": "./bin/cellular-lint-staged.js",
+    "cellular-flow": "./bin/cellular-flow.js"
   },
   "dependencies": {
     "about-this-app": "^1.1.0",
