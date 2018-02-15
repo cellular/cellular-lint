@@ -3,7 +3,7 @@
   "version": "1.0.6",
   "description": "CLI toolbox for linting projects",
   "author": "Felix Gnass <fgnass@cellular.de>",
-  "repository": "fgnass/cellular-lint",
+  "repository": "cellular/cellular-lint",
   "license": "MIT",
   "scripts": {
     "test": "./bin/cellular-lint.js && ./bin/cellular-flow.js .",
