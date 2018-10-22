@@ -9,7 +9,7 @@
     "test": "./bin/cellular-lint.js && ./bin/cellular-flow.js .",
     "cellular-lint": "./bin/cellular-lint.js",
     "cellular-flow": "./bin/cellular-flow.js",
-    "precommit": "./bin/cellular-lint-staged.js",
+    "x-precommit": "./bin/cellular-lint-staged.js",
     "postinstall": "./bin/init.js",
     "prepublishOnly": "npm test"
   },
@@ -25,7 +25,7 @@
     "eslint-config-cellular": "^2.0.1",
     "fs-extra": "^5.0.0",
     "husky": "^1.0.0",
-    "lint-staged": "^6.0.1",
+    "lint-staged": "^7.0.0",
     "spawn-bin": "^2.0.0"
   },
   "devDependencies": {
