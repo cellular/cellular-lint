@@ -24,7 +24,7 @@
     "eslint": "^5.0.0",
     "eslint-config-cellular": "^3.0.0",
     "fs-extra": "^7.0.0",
-    "husky": "^1.0.0",
+    "husky": "^2.5.0",
     "lint-staged": "^7.0.0",
     "spawn-bin": "^2.0.0"
   },
