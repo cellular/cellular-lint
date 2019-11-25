@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "about-this-app": "^1.1.0",
-    "eslint": "^5.0.0",
+    "eslint": "^6.7.1",
     "eslint-config-cellular": "^3.0.0",
     "fs-extra": "^7.0.0",
     "husky": "^1.0.0",
