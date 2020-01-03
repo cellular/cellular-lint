@@ -29,6 +29,6 @@
     "spawn-bin": "^2.0.0"
   },
   "devDependencies": {
-    "flow-bin": "^0.83.0"
+    "flow-bin": "^0.115.0"
   }
 }
