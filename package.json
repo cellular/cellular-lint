@@ -25,7 +25,7 @@
     "eslint-config-cellular": "^3.0.0",
     "fs-extra": "^7.0.0",
     "husky": "^1.0.0",
-    "lint-staged": "^7.0.0",
+    "lint-staged": "^10.0.5",
     "spawn-bin": "^2.0.0"
   },
   "devDependencies": {
